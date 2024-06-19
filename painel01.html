@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel 01</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #b0c2f2;
+        }
+        .btn {
+            font-size: 2.9rem;
+            width: 100%;
+            text-transform: uppercase;
+        }
+        .btn-balcao {
+            background-color: #84b6f4;
+            color: #616161;
+        }
+        .btn-senha {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .row {
+            padding-bottom: 5px;
+        }
+        marquee {
+            color: #ffffff;
+            font-size: 4rem;
+            text-transform: uppercase;
+        }
+        .btn-balcaosenha .btn-group .btn {
+            font-size: 1rem;
+            color: #ffffff;
+        }
+        .btn-balcaosenha .col-4 {
+            display: flex;
+            align-items: end;
+        }
+        .btn-balcaosenha .col-8 .btn {
+            color: #ffffff;
+        }
+        .btn-cor1 {
+            background-color: #84b6f4;
+            color:  #ffffff;
+        }
+        .btn-cor2 {
+            background-color: #77dd77;
+            color: #ffffff;
+        }
+        .btn-cor3 {
+            background-color: #fdfd96;
+            color: #84b6f4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row btn-balcaosenha">
+            <div class="col-8">
+                <button type="button" class="btn">Sistema de Senhas</button>
+            </div>
+            <div class="col-4">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn ">Balcão</button>
+                    <button type="button" class="btn ">Senha</button>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <button type="button" class="btn btn-cor1">Atendimento Geral</button>
+            </div>
+            <div class="col-4">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-balcao">G</button>
+                    <button type="button" class="btn btn-senha">001</button>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <button type="button" class="btn btn-cor2">Atendimento Prioritário</button>
+            </div>
+            <div class="col-4">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-balcao">P</button>
+                    <button type="button" class="btn btn-senha">023</button>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <button type="button" class="btn btn-cor3">Atendimento Normal</button>
+            </div>
+            <div class="col-4">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-balcao">N</button>
+                    <button type="button" class="btn btn-senha">004</button>
+                  </div>
+            </div>
+        </div>
+        <marquee>Organize seu atendimento com eficiência. Retire sua senha e relaxe enquanto aguarda!</marquee>
+    </div>
+</body>
+</html>
